@@ -19,7 +19,7 @@ import { ToastNotification } from './types';
 import { columns } from './columns';
 
 const storageKey = 'notifications-list';
-const settingsStore = createPersistedStore(storageKey);
+const settingsStore = createPersistedStore(storageKey, 'time');
 
 export function NotificationsView() {
   const { user } = useUser();
