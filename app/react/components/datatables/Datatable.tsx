@@ -11,9 +11,8 @@ import {
   TableRowProps,
   useExpanded,
 } from 'react-table';
-import { ReactNode, useEffect } from 'react';
+import { ReactNode } from 'react';
 import { useRowSelectColumn } from '@lineup-lite/hooks';
-import clsx from 'clsx';
 
 import { IconProps } from '@@/Icon';
 
